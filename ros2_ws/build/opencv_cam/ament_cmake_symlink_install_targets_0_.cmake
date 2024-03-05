@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/parallels/ros2_ws/build/opencv_cam/opencv_cam_main" "/home/parallels/ros2_ws/build/opencv_cam/ipc_test_main" "TARGETS" "opencv_cam_main" "ipc_test_main" "DESTINATION" "lib/opencv_cam")

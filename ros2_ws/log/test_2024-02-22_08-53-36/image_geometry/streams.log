@@ -1,0 +1,67 @@
+[0.062s] Invoking command in '/home/parallels/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/parallels/ros2_ws/install/image_geometry/lib:/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.066s] UpdateCTestConfiguration  from :/home/parallels/ros2_ws/build/image_geometry/CTestConfiguration.ini
+[0.066s] Parse Config file:/home/parallels/ros2_ws/build/image_geometry/CTestConfiguration.ini
+[0.066s]    Site: ubuntu-linux-22-04-02-desktop
+[0.066s]    Build name: (empty)
+[0.066s]  Add coverage exclude regular expressions.
+[0.066s] Create new tag: 20240222-0753 - Experimental
+[0.066s] UpdateCTestConfiguration  from :/home/parallels/ros2_ws/build/image_geometry/CTestConfiguration.ini
+[0.067s] Parse Config file:/home/parallels/ros2_ws/build/image_geometry/CTestConfiguration.ini
+[0.067s] Test project /home/parallels/ros2_ws/build/image_geometry
+[0.067s] Constructing a list of tests
+[0.067s] Done constructing a list of tests
+[0.067s] Updating test list for fixtures
+[0.067s] Added 0 tests to meet fixture requirements
+[0.067s] Checking test dependency graph...
+[0.067s] Checking test dependency graph end
+[0.067s] test 1
+[0.067s]     Start 1: image_geometry-utest
+[0.067s] 
+[0.067s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/parallels/ros2_ws/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/parallels/ros2_ws/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"
+[0.067s] 1: Test timeout computed to be: 60
+[0.120s] 1: -- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/image_geometry':
+[0.120s] 1:  - /home/parallels/ros2_ws/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml
+[0.141s] 1: [==========] Running 12 tests from 1 test suite.
+[0.141s] 1: [----------] Global test environment set-up.
+[0.141s] 1: [----------] 12 tests from PinholeTest
+[0.141s] 1: [ RUN      ] PinholeTest.accessorsCorrect
+[0.141s] 1: [       OK ] PinholeTest.accessorsCorrect (0 ms)
+[0.141s] 1: [ RUN      ] PinholeTest.projectPoint
+[0.142s] 1: [       OK ] PinholeTest.projectPoint (2 ms)
+[0.142s] 1: [ RUN      ] PinholeTest.rectifyPoint
+[0.168s] 1: [       OK ] PinholeTest.rectifyPoint (26 ms)
+[0.168s] 1: [ RUN      ] PinholeTest.getDeltas
+[0.168s] 1: [       OK ] PinholeTest.getDeltas (0 ms)
+[0.169s] 1: [ RUN      ] PinholeTest.initialization
+[0.169s] 1: [       OK ] PinholeTest.initialization (0 ms)
+[0.169s] 1: [ RUN      ] PinholeTest.rectifyIfCalibrated
+[0.185s] 1: [       OK ] PinholeTest.rectifyIfCalibrated (15 ms)
+[0.186s] 1: [ RUN      ] PinholeTest.unrectifyImage
+[1.093s] 1: [       OK ] PinholeTest.unrectifyImage (907 ms)
+[1.094s] 1: [ RUN      ] PinholeTest.unrectifyImageWithBinning
+[1.357s] 1: [       OK ] PinholeTest.unrectifyImageWithBinning (263 ms)
+[1.358s] 1: [ RUN      ] PinholeTest.unrectifyImageWithRoi
+[1.862s] 1: [       OK ] PinholeTest.unrectifyImageWithRoi (503 ms)
+[1.862s] 1: [ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi
+[1.978s] 1: [       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (116 ms)
+[1.978s] 1: [ RUN      ] PinholeTest.rectifiedRoiSize
+[1.979s] 1: [       OK ] PinholeTest.rectifiedRoiSize (0 ms)
+[1.979s] 1: [ RUN      ] PinholeTest.rectifiedRoiCaching
+[1.979s] 1: [       OK ] PinholeTest.rectifiedRoiCaching (0 ms)
+[1.979s] 1: [----------] 12 tests from PinholeTest (1840 ms total)
+[1.979s] 1: 
+[1.980s] 1: [----------] Global test environment tear-down
+[1.980s] 1: [==========] 12 tests from 1 test suite ran. (1840 ms total)
+[1.980s] 1: [  PASSED  ] 12 tests.
+[1.987s] 1: -- run_test.py: return code 0
+[1.988s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+[1.988s] 1: -- run_test.py: verify result file '/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+[1.988s] 1/1 Test #1: image_geometry-utest .............   Passed    1.92 sec
+[1.988s] 
+[1.989s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[1.989s] 
+[1.989s] Label Time Summary:
+[1.989s] gtest    =   1.92 sec*proc (1 test)
+[1.989s] 
+[1.989s] Total Test time (real) =   1.92 sec
+[2.000s] Invoked command in '/home/parallels/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/parallels/ros2_ws/install/image_geometry/lib:/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

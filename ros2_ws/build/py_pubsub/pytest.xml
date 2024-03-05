@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.161" timestamp="2024-02-22T08:53:38.954511" hostname="ubuntu-linux-22-04-02-desktop"><testcase classname="py_pubsub.test.test_copyright" name="test_copyright" time="0.000"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/parallels/ros2_ws/src/py_pubsub/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="py_pubsub.test.test_flake8" name="test_flake8" time="0.076"><failure message="AssertionError: Found 2 code style errors / warnings:&#10;  ./py_pubsub/publisher_member_function.py:37:1: E265 block comment should start with '# '&#10;  ./py_pubsub/publisher_member_function.py:37:35: W292 no newline at end of file&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 2 code style errors / warnings:
+E     ./py_pubsub/publisher_member_function.py:37:1: E265 block comment should start with '# '
+E     ./py_pubsub/publisher_member_function.py:37:35: W292 no newline at end of file
+E   assert 1 == 0</failure></testcase><testcase classname="py_pubsub.test.test_pep257" name="test_pep257" time="0.009" /></testsuite></testsuites>

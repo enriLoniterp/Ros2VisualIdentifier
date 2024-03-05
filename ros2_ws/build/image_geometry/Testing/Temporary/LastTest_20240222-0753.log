@@ -1,0 +1,58 @@
+Start testing: Feb 22 08:53 CET
+----------------------------------------------------------
+1/1 Testing: image_geometry-utest
+1/1 Test: image_geometry-utest
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/parallels/ros2_ws/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/parallels/ros2_ws/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"
+Directory: /home/parallels/ros2_ws/build/image_geometry
+"image_geometry-utest" start time: Feb 22 08:53 CET
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/image_geometry':
+ - /home/parallels/ros2_ws/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from PinholeTest
+[ RUN      ] PinholeTest.accessorsCorrect
+[       OK ] PinholeTest.accessorsCorrect (0 ms)
+[ RUN      ] PinholeTest.projectPoint
+[       OK ] PinholeTest.projectPoint (2 ms)
+[ RUN      ] PinholeTest.rectifyPoint
+[       OK ] PinholeTest.rectifyPoint (26 ms)
+[ RUN      ] PinholeTest.getDeltas
+[       OK ] PinholeTest.getDeltas (0 ms)
+[ RUN      ] PinholeTest.initialization
+[       OK ] PinholeTest.initialization (0 ms)
+[ RUN      ] PinholeTest.rectifyIfCalibrated
+[       OK ] PinholeTest.rectifyIfCalibrated (15 ms)
+[ RUN      ] PinholeTest.unrectifyImage
+[       OK ] PinholeTest.unrectifyImage (907 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinning
+[       OK ] PinholeTest.unrectifyImageWithBinning (263 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithRoi
+[       OK ] PinholeTest.unrectifyImageWithRoi (503 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi
+[       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (116 ms)
+[ RUN      ] PinholeTest.rectifiedRoiSize
+[       OK ] PinholeTest.rectifiedRoiSize (0 ms)
+[ RUN      ] PinholeTest.rectifiedRoiCaching
+[       OK ] PinholeTest.rectifiedRoiCaching (0 ms)
+[----------] 12 tests from PinholeTest (1840 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (1840 ms total)
+[  PASSED  ] 12 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+-- run_test.py: verify result file '/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+<end of output>
+Test time =   1.92 sec
+----------------------------------------------------------
+Test Passed.
+"image_geometry-utest" end time: Feb 22 08:53 CET
+"image_geometry-utest" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Feb 22 08:53 CET
+
+gtest =   1.92 sec*proc
+

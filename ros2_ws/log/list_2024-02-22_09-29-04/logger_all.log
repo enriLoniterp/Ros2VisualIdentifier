@@ -1,0 +1,153 @@
+[2.318s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/parallels/ros2_ws']
+[2.318s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/parallels/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff95260160>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffff9574fbb0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffff9574fbb0>>)
+[2.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.521s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/parallels/ros2_ws'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extension 'ignore'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extension 'ignore_ament_install'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extensions ['colcon_pkg']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extension 'colcon_pkg'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extensions ['colcon_meta']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extension 'colcon_meta'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extensions ['ros']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extension 'ros'
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extensions ['cmake', 'python']
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extension 'cmake'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extension 'python'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extensions ['python_setup_py']
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws) by extension 'python_setup_py'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/build) by extension 'ignore'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/build) ignored
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/install) by extension 'ignore'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/install) ignored
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/log) by extension 'ignore'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/log) ignored
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extension 'ignore'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extension 'ignore_ament_install'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extensions ['colcon_pkg']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extension 'colcon_pkg'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extensions ['colcon_meta']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extension 'colcon_meta'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extensions ['ros']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extension 'ros'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extensions ['cmake', 'python']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extension 'cmake'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extension 'python'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extensions ['python_setup_py']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src) by extension 'python_setup_py'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/opencv_cam) by extensions ['ignore', 'ignore_ament_install']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/opencv_cam) by extension 'ignore'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/opencv_cam) by extension 'ignore_ament_install'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/opencv_cam) by extensions ['colcon_pkg']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/opencv_cam) by extension 'colcon_pkg'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/opencv_cam) by extensions ['colcon_meta']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/opencv_cam) by extension 'colcon_meta'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/opencv_cam) by extensions ['ros']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/opencv_cam) by extension 'ros'
+[2.588s] DEBUG:colcon.colcon_core.package_identification:Package '/home/parallels/ros2_ws/src/opencv_cam' with type 'ros.ament_cmake' and name 'opencv_cam'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/py_pubsub) by extension 'ignore'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/py_pubsub) by extension 'ignore_ament_install'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/py_pubsub) by extensions ['colcon_pkg']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/py_pubsub) by extension 'colcon_pkg'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/py_pubsub) by extensions ['colcon_meta']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/py_pubsub) by extension 'colcon_meta'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/py_pubsub) by extensions ['ros']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/py_pubsub) by extension 'ros'
+[2.592s] DEBUG:colcon.colcon_core.package_identification:Package '/home/parallels/ros2_ws/src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros2_shared) by extensions ['ignore', 'ignore_ament_install']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros2_shared) by extension 'ignore'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros2_shared) by extension 'ignore_ament_install'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros2_shared) by extensions ['colcon_pkg']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros2_shared) by extension 'colcon_pkg'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros2_shared) by extensions ['colcon_meta']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros2_shared) by extension 'colcon_meta'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros2_shared) by extensions ['ros']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros2_shared) by extension 'ros'
+[2.595s] DEBUG:colcon.colcon_core.package_identification:Package '/home/parallels/ros2_ws/src/ros2_shared' with type 'ros.ament_cmake' and name 'ros2_shared'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extension 'ignore'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extension 'ignore_ament_install'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extensions ['colcon_pkg']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extension 'colcon_pkg'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extensions ['colcon_meta']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extension 'colcon_meta'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extensions ['ros']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extension 'ros'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extensions ['cmake', 'python']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extension 'cmake'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extension 'python'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extensions ['python_setup_py']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials) by extension 'python_setup_py'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials/ros_tutorials) ignored
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials/roscpp_tutorials) ignored
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/ros_tutorials/rospy_tutorials) ignored
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extension 'ignore'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extension 'ignore_ament_install'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extensions ['colcon_pkg']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extension 'colcon_pkg'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extensions ['colcon_meta']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extension 'colcon_meta'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extensions ['ros']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extension 'ros'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extensions ['cmake', 'python']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extension 'cmake'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extension 'python'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extensions ['python_setup_py']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv) by extension 'python_setup_py'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/cv_bridge) by extension 'ignore'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/cv_bridge) by extensions ['ros']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/cv_bridge) by extension 'ros'
+[2.601s] DEBUG:colcon.colcon_core.package_identification:Package '/home/parallels/ros2_ws/src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/image_geometry) by extension 'ignore'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/image_geometry) by extensions ['ros']
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/image_geometry) by extension 'ros'
+[2.604s] DEBUG:colcon.colcon_core.package_identification:Package '/home/parallels/ros2_ws/src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/opencv_tests) by extension 'ignore'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/opencv_tests) by extensions ['ros']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/opencv_tests) by extension 'ros'
+[2.606s] DEBUG:colcon.colcon_core.package_identification:Package '/home/parallels/ros2_ws/src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/vision_opencv) by extension 'ignore'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/vision_opencv) by extensions ['ros']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/parallels/ros2_ws/src/vision_opencv/vision_opencv) by extension 'ros'
+[2.611s] DEBUG:colcon.colcon_core.package_identification:Package '/home/parallels/ros2_ws/src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[2.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,4 @@
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring incomplete, errors occurred!
+See also "/home/parallels/ros2_ws/build/cv_bridge/CMakeFiles/CMakeOutput.log".

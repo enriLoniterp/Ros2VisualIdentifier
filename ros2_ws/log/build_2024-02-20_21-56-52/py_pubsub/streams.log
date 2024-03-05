@@ -1,0 +1,44 @@
+[0.357s] Invoking command in '/home/parallels/ros2_ws/src/py_pubsub': PYTHONPATH=/home/parallels/ros2_ws/build/py_pubsub/prefix_override:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/parallels/ros2_ws/build/py_pubsub/build install --record /home/parallels/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.490s] running egg_info
+[0.490s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.490s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.491s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.491s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.491s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.491s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.491s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.492s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.492s] adding license file 'LICENSE'
+[0.492s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.492s] running build
+[0.492s] running build_py
+[0.492s] creating /home/parallels/ros2_ws/build/py_pubsub/build
+[0.492s] creating /home/parallels/ros2_ws/build/py_pubsub/build/lib
+[0.492s] creating /home/parallels/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.492s] copying py_pubsub/__init__.py -> /home/parallels/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.492s] copying py_pubsub/subscriber_member_function.py -> /home/parallels/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.492s] copying py_pubsub/publisher_member_function.py -> /home/parallels/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.492s] running install
+[0.493s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.493s]   warnings.warn(
+[0.493s] running install_lib
+[0.494s] creating /home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.494s] copying /home/parallels/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.494s] copying /home/parallels/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.494s] copying /home/parallels/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.494s] byte-compiling /home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.494s] byte-compiling /home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.494s] byte-compiling /home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.494s] running install_data
+[0.495s] creating /home/parallels/ros2_ws/install/py_pubsub/share/ament_index
+[0.495s] creating /home/parallels/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[0.495s] creating /home/parallels/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.495s] copying resource/py_pubsub -> /home/parallels/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.495s] copying package.xml -> /home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.495s] running install_egg_info
+[0.496s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.496s] running install_scripts
+[0.510s] Installing listener script to /home/parallels/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.511s] Installing talker script to /home/parallels/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.511s] writing list of installed files to '/home/parallels/ros2_ws/build/py_pubsub/install.log'
+[0.529s] Invoked command in '/home/parallels/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/parallels/ros2_ws/build/py_pubsub/prefix_override:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/parallels/ros2_ws/build/py_pubsub/build install --record /home/parallels/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

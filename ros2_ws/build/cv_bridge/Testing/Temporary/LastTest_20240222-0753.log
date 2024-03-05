@@ -1,0 +1,157 @@
+Start testing: Feb 22 08:53 CET
+----------------------------------------------------------
+1/4 Testing: cv_bridge-utest
+1/4 Test: cv_bridge-utest
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml" "--package-name" "cv_bridge" "--output-file" "/home/parallels/ros2_ws/build/cv_bridge/ament_cmake_gtest/cv_bridge-utest.txt" "--append-env" "LD_LIBRARY_PATH=/home/parallels/ros2_ws/build/cv_bridge/src" "--command" "/home/parallels/ros2_ws/build/cv_bridge/test/cv_bridge-utest" "--gtest_output=xml:/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml"
+Directory: /home/parallels/ros2_ws/build/cv_bridge/test
+"cv_bridge-utest" start time: Feb 22 08:53 CET
+Output:
+----------------------------------------------------------
+-- run_test.py: extra environment variables to append:
+ - LD_LIBRARY_PATH+=/home/parallels/ros2_ws/build/cv_bridge/src
+-- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/cv_bridge/test':
+ - /home/parallels/ros2_ws/build/cv_bridge/test/cv_bridge-utest --gtest_output=xml:/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml
+[==========] Running 9 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from CvBridgeTest
+[ RUN      ] CvBridgeTest.endianness
+[       OK ] CvBridgeTest.endianness (1 ms)
+[ RUN      ] CvBridgeTest.compression
+[       OK ] CvBridgeTest.compression (27 ms)
+[ RUN      ] CvBridgeTest.NonContinuous
+[       OK ] CvBridgeTest.NonContinuous (1 ms)
+[ RUN      ] CvBridgeTest.ChannelOrder
+[       OK ] CvBridgeTest.ChannelOrder (0 ms)
+[ RUN      ] CvBridgeTest.initialization
+[       OK ] CvBridgeTest.initialization (5 ms)
+[ RUN      ] CvBridgeTest.imageMessageStep
+[       OK ] CvBridgeTest.imageMessageStep (0 ms)
+[ RUN      ] CvBridgeTest.imageMessageConversion
+[       OK ] CvBridgeTest.imageMessageConversion (1 ms)
+[----------] 7 tests from CvBridgeTest (35 ms total)
+
+[----------] 1 test from OpencvTests
+[ RUN      ] OpencvTests.testCase_encode_decode
+[       OK ] OpencvTests.testCase_encode_decode (296 ms)
+[----------] 1 test from OpencvTests (296 ms total)
+
+[----------] 1 test from RGBColors
+[ RUN      ] RGBColors.testGetRGBColor
+[       OK ] RGBColors.testGetRGBColor (0 ms)
+[----------] 1 test from RGBColors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 3 test suites ran. (332 ms total)
+[  PASSED  ] 9 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'
+-- run_test.py: verify result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"cv_bridge-utest" end time: Feb 22 08:53 CET
+"cv_bridge-utest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: enumerants.py
+2/4 Test: enumerants.py
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/parallels/ros2_ws/build/cv_bridge/ament_cmake_pytest/enumerants.py.txt" "--command" "/usr/bin/python3.10" "-u" "-m" "pytest" "/home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/enumerants.py" "-o" "cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache" "--junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--junit-prefix=cv_bridge"
+Directory: /home/parallels/ros2_ws/build/cv_bridge/test
+"enumerants.py" start time: Feb 22 08:53 CET
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/cv_bridge/test':
+ - /usr/bin/python3.10 -u -m pytest /home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/enumerants.py -o cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache --junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml --junit-prefix=cv_bridge
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache
+rootdir: /home/parallels/ros2_ws/src/vision_opencv, configfile: pytest.ini
+plugins: ament-xmllint-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, launch-testing-1.0.4, cov-3.0.0, colcon-core-0.15.2
+collected 2 items
+
+../../../src/vision_opencv/cv_bridge/test/enumerants.py ..               [100%]
+
+- generated xml file: /home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml -
+============================== 2 passed in 0.38s ===============================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml'
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Passed.
+"enumerants.py" end time: Feb 22 08:53 CET
+"enumerants.py" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: conversions.py
+3/4 Test: conversions.py
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/parallels/ros2_ws/build/cv_bridge/ament_cmake_pytest/conversions.py.txt" "--command" "/usr/bin/python3.10" "-u" "-m" "pytest" "/home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/conversions.py" "-o" "cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache" "--junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--junit-prefix=cv_bridge"
+Directory: /home/parallels/ros2_ws/build/cv_bridge/test
+"conversions.py" start time: Feb 22 08:53 CET
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/cv_bridge/test':
+ - /usr/bin/python3.10 -u -m pytest /home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/conversions.py -o cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache --junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml --junit-prefix=cv_bridge
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache
+rootdir: /home/parallels/ros2_ws/src/vision_opencv, configfile: pytest.ini
+plugins: ament-xmllint-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, launch-testing-1.0.4, cov-3.0.0, colcon-core-0.15.2
+collected 4 items
+
+../../../src/vision_opencv/cv_bridge/test/conversions.py ....            [100%]
+
+=============================== warnings summary ===============================
+cv_bridge/test/conversions.py: 7056 warnings
+  Warning: tostring() is deprecated. Use tobytes() instead.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated xml file: /home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml -
+======================= 4 passed, 7056 warnings in 7.50s =======================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml'
+<end of output>
+Test time =   7.84 sec
+----------------------------------------------------------
+Test Passed.
+"conversions.py" end time: Feb 22 08:53 CET
+"conversions.py" time elapsed: 00:00:07
+----------------------------------------------------------
+
+4/4 Testing: python_bindings.py
+4/4 Test: python_bindings.py
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/parallels/ros2_ws/build/cv_bridge/ament_cmake_pytest/python_bindings.py.txt" "--command" "/usr/bin/python3.10" "-u" "-m" "pytest" "/home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/python_bindings.py" "-o" "cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache" "--junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--junit-prefix=cv_bridge"
+Directory: /home/parallels/ros2_ws/build/cv_bridge/test
+"python_bindings.py" start time: Feb 22 08:53 CET
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/cv_bridge/test':
+ - /usr/bin/python3.10 -u -m pytest /home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/python_bindings.py -o cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache --junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml --junit-prefix=cv_bridge
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache
+rootdir: /home/parallels/ros2_ws/src/vision_opencv, configfile: pytest.ini
+plugins: ament-xmllint-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, launch-testing-1.0.4, cov-3.0.0, colcon-core-0.15.2
+collected 1 item
+
+../../../src/vision_opencv/cv_bridge/test/python_bindings.py .           [100%]
+
+- generated xml file: /home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml -
+============================== 1 passed in 0.13s ===============================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml'
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"python_bindings.py" end time: Feb 22 08:53 CET
+"python_bindings.py" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 22 08:53 CET
+
+gtest =   0.52 sec*proc
+
+pytest =   8.85 sec*proc
+

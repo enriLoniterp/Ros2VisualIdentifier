@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" time="0.332" timestamp="2024-02-22T08:53:36" name="AllTests">
+  <testsuite name="CvBridgeTest" tests="7" failures="0" disabled="0" errors="0" time="0.035" timestamp="2024-02-22T08:53:36">
+    <testcase name="endianness" status="run" result="completed" time="0.001" timestamp="2024-02-22T08:53:36" classname="cv_bridge.CvBridgeTest" />
+    <testcase name="compression" status="run" result="completed" time="0.027" timestamp="2024-02-22T08:53:36" classname="cv_bridge.CvBridgeTest" />
+    <testcase name="NonContinuous" status="run" result="completed" time="0.001" timestamp="2024-02-22T08:53:36" classname="cv_bridge.CvBridgeTest" />
+    <testcase name="ChannelOrder" status="run" result="completed" time="0" timestamp="2024-02-22T08:53:36" classname="cv_bridge.CvBridgeTest" />
+    <testcase name="initialization" status="run" result="completed" time="0.005" timestamp="2024-02-22T08:53:36" classname="cv_bridge.CvBridgeTest" />
+    <testcase name="imageMessageStep" status="run" result="completed" time="0" timestamp="2024-02-22T08:53:36" classname="cv_bridge.CvBridgeTest" />
+    <testcase name="imageMessageConversion" status="run" result="completed" time="0.001" timestamp="2024-02-22T08:53:36" classname="cv_bridge.CvBridgeTest" />
+  </testsuite>
+  <testsuite name="OpencvTests" tests="1" failures="0" disabled="0" errors="0" time="0.296" timestamp="2024-02-22T08:53:36">
+    <testcase name="testCase_encode_decode" status="run" result="completed" time="0.296" timestamp="2024-02-22T08:53:36" classname="cv_bridge.OpencvTests" />
+  </testsuite>
+  <testsuite name="RGBColors" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2024-02-22T08:53:37">
+    <testcase name="testGetRGBColor" status="run" result="completed" time="0" timestamp="2024-02-22T08:53:37" classname="cv_bridge.RGBColors" />
+  </testsuite>
+</testsuites>

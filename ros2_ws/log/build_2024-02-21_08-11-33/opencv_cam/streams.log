@@ -1,0 +1,92 @@
+[0.070s] Invoking command in '/home/parallels/ros2_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/turtlesim:/opt/ros/humble:/home/parallels/ros2_ws/install/py_pubsub /usr/bin/cmake /home/parallels/ros2_ws/src/opencv_cam -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/opencv_cam
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.262s] -- Detecting CXX compile features
+[0.263s] -- Detecting CXX compile features - done
+[0.271s] -- Found OpenCV version 4.5.4
+[0.273s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.416s] -- Found camera_calibration_parsers: 3.1.8 (/opt/ros/humble/share/camera_calibration_parsers/cmake)
+[0.446s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.449s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.535s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.590s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.607s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.637s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.643s] -- Looking for pthread.h
+[0.692s] -- Looking for pthread.h - found
+[0.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.735s] -- Found Threads: TRUE  
+[0.982s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[0.990s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.039s] -- Found ros2_shared: 0.1.0 (/home/parallels/ros2_ws/install/ros2_shared/share/ros2_shared/cmake)
+[1.087s] -- Configuring done
+[1.107s] -- Generating done
+[1.108s] -- Build files have been written to: /home/parallels/ros2_ws/build/opencv_cam
+[1.114s] Invoked command in '/home/parallels/ros2_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/turtlesim:/opt/ros/humble:/home/parallels/ros2_ws/install/py_pubsub /usr/bin/cmake /home/parallels/ros2_ws/src/opencv_cam -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/opencv_cam
+[1.115s] Invoking command in '/home/parallels/ros2_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/turtlesim:/opt/ros/humble:/home/parallels/ros2_ws/install/py_pubsub /usr/bin/cmake --build /home/parallels/ros2_ws/build/opencv_cam -- -j2 -l2
+[1.140s] [ 12%] [32mBuilding CXX object CMakeFiles/opencv_cam_node.dir/src/opencv_cam_node.cpp.o[0m
+[1.141s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[179.368s] [ 37%] [32m[1mLinking CXX shared library libopencv_cam_node.so[0m
+[179.674s] [ 37%] Built target opencv_cam_node
+[181.608s] [ 50%] [32m[1mLinking CXX shared library libsubscriber_node.so[0m
+[181.859s] [ 50%] Built target subscriber_node
+[181.876s] [ 62%] [32mBuilding CXX object CMakeFiles/opencv_cam_main.dir/src/opencv_cam_main.cpp.o[0m
+[183.942s] [ 75%] [32m[1mLinking CXX executable opencv_cam_main[0m
+[184.454s] [ 75%] Built target opencv_cam_main
+[184.465s] [ 87%] [32mBuilding CXX object CMakeFiles/ipc_test_main.dir/src/ipc_test_main.cpp.o[0m
+[186.458s] [100%] [32m[1mLinking CXX executable ipc_test_main[0m
+[186.785s] [100%] Built target ipc_test_main
+[186.831s] Invoked command in '/home/parallels/ros2_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/turtlesim:/opt/ros/humble:/home/parallels/ros2_ws/install/py_pubsub /usr/bin/cmake --build /home/parallels/ros2_ws/build/opencv_cam -- -j2 -l2
+[186.863s] Invoking command in '/home/parallels/ros2_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/turtlesim:/opt/ros/humble:/home/parallels/ros2_ws/install/py_pubsub /usr/bin/cmake --install /home/parallels/ros2_ws/build/opencv_cam
+[186.867s] -- Install configuration: ""
+[186.869s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh
+[186.870s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv
+[186.870s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam
+[186.871s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam
+[186.872s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh
+[186.872s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv
+[186.872s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.sh
+[186.872s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv
+[186.872s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.bash
+[186.872s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.sh
+[186.873s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh
+[186.873s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv
+[186.873s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/package.dsv
+[186.873s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam
+[186.873s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam
+[186.873s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake
+[186.874s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake
+[186.874s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake
+[186.874s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake
+[186.874s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[186.874s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[186.874s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_targets-extras.cmake
+[186.874s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[186.875s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake
+[186.875s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake
+[186.875s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/package.xml
+[186.875s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so
+[186.877s] -- Set runtime path of "/home/parallels/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so" to ""
+[186.877s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so
+[186.881s] -- Set runtime path of "/home/parallels/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so" to ""
+[186.881s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main
+[186.881s] -- Set runtime path of "/home/parallels/ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main" to ""
+[186.881s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main
+[186.881s] -- Set runtime path of "/home/parallels/ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main" to ""
+[186.881s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/launch
+[186.882s] -- Installing: /home/parallels/ros2_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py
+[186.885s] Invoked command in '/home/parallels/ros2_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/turtlesim:/opt/ros/humble:/home/parallels/ros2_ws/install/py_pubsub /usr/bin/cmake --install /home/parallels/ros2_ws/build/opencv_cam

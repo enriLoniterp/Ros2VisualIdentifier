@@ -1,0 +1,48 @@
+[0.877s] Invoking command in '/home/parallels/ros2_ws/build/opencv_tests': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/image_geometry LD_LIBRARY_PATH=/home/parallels/ros2_ws/install/cv_bridge/lib:/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/parallels/ros2_ws/build/opencv_tests/prefix_override:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/parallels/ros2_ws/build/opencv_tests/build
+[1.124s] running develop
+[1.138s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.139s]   warnings.warn(
+[1.140s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.140s]   warnings.warn(
+[1.318s] Removing /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[1.364s] Invoked command in '/home/parallels/ros2_ws/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/image_geometry LD_LIBRARY_PATH=/home/parallels/ros2_ws/install/cv_bridge/lib:/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/parallels/ros2_ws/build/opencv_tests/prefix_override:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/parallels/ros2_ws/build/opencv_tests/build
+[1.366s] Invoking command in '/home/parallels/ros2_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/image_geometry LD_LIBRARY_PATH=/home/parallels/ros2_ws/install/cv_bridge/lib:/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/parallels/ros2_ws/build/opencv_tests/prefix_override:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/parallels/ros2_ws/build/opencv_tests/build install --record /home/parallels/ros2_ws/build/opencv_tests/install.log --single-version-externally-managed
+[1.612s] running egg_info
+[1.613s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[1.614s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[1.614s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[1.614s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[1.615s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[1.616s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.617s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.618s] running build
+[1.619s] running build_py
+[1.620s] creating /home/parallels/ros2_ws/build/opencv_tests/build
+[1.620s] creating /home/parallels/ros2_ws/build/opencv_tests/build/lib
+[1.621s] creating /home/parallels/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.621s] copying opencv_tests/__init__.py -> /home/parallels/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.621s] copying opencv_tests/broadcast.py -> /home/parallels/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.622s] copying opencv_tests/rosfacedetect.py -> /home/parallels/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.622s] copying opencv_tests/source.py -> /home/parallels/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.623s] running install
+[1.623s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.623s]   warnings.warn(
+[1.624s] running install_lib
+[1.624s] creating /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.625s] copying /home/parallels/ros2_ws/build/opencv_tests/build/lib/opencv_tests/__init__.py -> /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.626s] copying /home/parallels/ros2_ws/build/opencv_tests/build/lib/opencv_tests/broadcast.py -> /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.627s] copying /home/parallels/ros2_ws/build/opencv_tests/build/lib/opencv_tests/rosfacedetect.py -> /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.628s] copying /home/parallels/ros2_ws/build/opencv_tests/build/lib/opencv_tests/source.py -> /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.629s] byte-compiling /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/__init__.py to __init__.cpython-310.pyc
+[1.630s] byte-compiling /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/broadcast.py to broadcast.cpython-310.pyc
+[1.631s] byte-compiling /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/rosfacedetect.py to rosfacedetect.cpython-310.pyc
+[1.634s] byte-compiling /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/source.py to source.cpython-310.pyc
+[1.640s] running install_data
+[1.641s] running install_egg_info
+[1.644s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.2.1-py3.10.egg-info
+[1.649s] running install_scripts
+[1.664s] Installing broadcast script to /home/parallels/ros2_ws/install/opencv_tests/lib/opencv_tests
+[1.664s] Installing rosfacedetect script to /home/parallels/ros2_ws/install/opencv_tests/lib/opencv_tests
+[1.665s] Installing source script to /home/parallels/ros2_ws/install/opencv_tests/lib/opencv_tests
+[1.665s] writing list of installed files to '/home/parallels/ros2_ws/build/opencv_tests/install.log'
+[1.690s] Invoked command in '/home/parallels/ros2_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/image_geometry LD_LIBRARY_PATH=/home/parallels/ros2_ws/install/cv_bridge/lib:/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/parallels/ros2_ws/build/opencv_tests/prefix_override:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/parallels/ros2_ws/build/opencv_tests/build install --record /home/parallels/ros2_ws/build/opencv_tests/install.log --single-version-externally-managed

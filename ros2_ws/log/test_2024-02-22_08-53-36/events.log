@@ -1,0 +1,398 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict([('cv_bridge', '/home/parallels/ros2_ws/install/cv_bridge')])}
+[0.000284] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict([('image_geometry', '/home/parallels/ros2_ws/install/image_geometry')])}
+[0.000345] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict([('py_pubsub', '/home/parallels/ros2_ws/install/py_pubsub')])}
+[0.000397] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict([('ros2_shared', '/home/parallels/ros2_ws/install/ros2_shared')])}
+[0.000452] (opencv_cam) JobQueued: {'identifier': 'opencv_cam', 'dependencies': OrderedDict([('ros2_shared', '/home/parallels/ros2_ws/install/ros2_shared'), ('opencv_cam', '/home/parallels/ros2_ws/install/opencv_cam')])}
+[0.000623] (opencv_tests) JobQueued: {'identifier': 'opencv_tests', 'dependencies': OrderedDict([('cv_bridge', '/home/parallels/ros2_ws/install/cv_bridge'), ('opencv_tests', '/home/parallels/ros2_ws/install/opencv_tests')])}
+[0.000681] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/home/parallels/ros2_ws/install/cv_bridge'), ('image_geometry', '/home/parallels/ros2_ws/install/image_geometry'), ('vision_opencv', '/home/parallels/ros2_ws/install/vision_opencv')])}
+[0.000734] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.032527] (image_geometry) JobStarted: {'identifier': 'image_geometry'}
+[0.083632] (cv_bridge) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/parallels/ros2_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/ros2_ws/install/cv_bridge/lib:/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '144550'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/144527,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/144527'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/081e4bbd_e7c8_46fb_bbe2_3aaf5ccd22f1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCCGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1505'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/ros2_ws/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/build/py_pubsub:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/parallels/ros2_ws/build/opencv_tests:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/image_geometry')]), 'shell': False}
+[0.090544] (cv_bridge) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/parallels/ros2_ws/build/cv_bridge/CTestConfiguration.ini\n'}
+[0.090639] (cv_bridge) StdoutLine: {'line': b'Parse Config file:/home/parallels/ros2_ws/build/cv_bridge/CTestConfiguration.ini\n'}
+[0.090675] (cv_bridge) StdoutLine: {'line': b'   Site: ubuntu-linux-22-04-02-desktop\n'}
+[0.090705] (cv_bridge) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.090757] (cv_bridge) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.090799] (cv_bridge) StdoutLine: {'line': b'Create new tag: 20240222-0753 - Experimental\n'}
+[0.090842] (cv_bridge) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/parallels/ros2_ws/build/cv_bridge/CTestConfiguration.ini\n'}
+[0.090884] (cv_bridge) StdoutLine: {'line': b'Parse Config file:/home/parallels/ros2_ws/build/cv_bridge/CTestConfiguration.ini\n'}
+[0.090936] (cv_bridge) StdoutLine: {'line': b'Test project /home/parallels/ros2_ws/build/cv_bridge\n'}
+[0.092122] (cv_bridge) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.092504] (cv_bridge) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.092535] (cv_bridge) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.092566] (cv_bridge) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.092594] (cv_bridge) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.092621] (cv_bridge) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.092649] (cv_bridge) StdoutLine: {'line': b'test 1\n'}
+[0.092676] (cv_bridge) StdoutLine: {'line': b'    Start 1: cv_bridge-utest\n'}
+[0.092703] (cv_bridge) StdoutLine: {'line': b'\n'}
+[0.092731] (cv_bridge) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml" "--package-name" "cv_bridge" "--output-file" "/home/parallels/ros2_ws/build/cv_bridge/ament_cmake_gtest/cv_bridge-utest.txt" "--append-env" "LD_LIBRARY_PATH=/home/parallels/ros2_ws/build/cv_bridge/src" "--command" "/home/parallels/ros2_ws/build/cv_bridge/test/cv_bridge-utest" "--gtest_output=xml:/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml"\n'}
+[0.092762] (cv_bridge) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.094473] (image_geometry) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/parallels/ros2_ws/build/image_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/ros2_ws/install/image_geometry/lib:/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '144550'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/144527,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/144527'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/081e4bbd_e7c8_46fb_bbe2_3aaf5ccd22f1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCCGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1505'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/ros2_ws/build/image_geometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/build/py_pubsub:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/parallels/ros2_ws/build/opencv_tests:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/cv_bridge')]), 'shell': False}
+[0.098940] (image_geometry) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/parallels/ros2_ws/build/image_geometry/CTestConfiguration.ini\n'}
+[0.099013] (image_geometry) StdoutLine: {'line': b'Parse Config file:/home/parallels/ros2_ws/build/image_geometry/CTestConfiguration.ini\n'}
+[0.099045] (image_geometry) StdoutLine: {'line': b'   Site: ubuntu-linux-22-04-02-desktop\n'}
+[0.099078] (image_geometry) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.099105] (image_geometry) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.099134] (image_geometry) StdoutLine: {'line': b'Create new tag: 20240222-0753 - Experimental\n'}
+[0.099161] (image_geometry) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/parallels/ros2_ws/build/image_geometry/CTestConfiguration.ini\n'}
+[0.099188] (image_geometry) StdoutLine: {'line': b'Parse Config file:/home/parallels/ros2_ws/build/image_geometry/CTestConfiguration.ini\n'}
+[0.099215] (image_geometry) StdoutLine: {'line': b'Test project /home/parallels/ros2_ws/build/image_geometry\n'}
+[0.099248] (image_geometry) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.099278] (image_geometry) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.099307] (image_geometry) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.099334] (image_geometry) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.099362] (image_geometry) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.099388] (image_geometry) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.099418] (image_geometry) StdoutLine: {'line': b'test 1\n'}
+[0.099445] (image_geometry) StdoutLine: {'line': b'    Start 1: image_geometry-utest\n'}
+[0.099471] (image_geometry) StdoutLine: {'line': b'\n'}
+[0.099501] (image_geometry) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/parallels/ros2_ws/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/parallels/ros2_ws/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"\n'}
+[0.099531] (image_geometry) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099557] (-) TimerEvent: {}
+[0.142969] (cv_bridge) StdoutLine: {'line': b'1: -- run_test.py: extra environment variables to append:\n'}
+[0.143318] (cv_bridge) StdoutLine: {'line': b'1:  - LD_LIBRARY_PATH+=/home/parallels/ros2_ws/build/cv_bridge/src\n'}
+[0.143577] (cv_bridge) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/cv_bridge/test':\n"}
+[0.143777] (cv_bridge) StdoutLine: {'line': b'1:  - /home/parallels/ros2_ws/build/cv_bridge/test/cv_bridge-utest --gtest_output=xml:/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml\n'}
+[0.152366] (image_geometry) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/image_geometry':\n"}
+[0.152669] (image_geometry) StdoutLine: {'line': b'1:  - /home/parallels/ros2_ws/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml\n'}
+[0.173172] (image_geometry) StdoutLine: {'line': b'1: [==========] Running 12 tests from 1 test suite.\n'}
+[0.173393] (image_geometry) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.173427] (image_geometry) StdoutLine: {'line': b'1: [----------] 12 tests from PinholeTest\n'}
+[0.173455] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.accessorsCorrect\n'}
+[0.173482] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.accessorsCorrect (0 ms)\n'}
+[0.173508] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.projectPoint\n'}
+[0.175106] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.projectPoint (2 ms)\n'}
+[0.175142] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.rectifyPoint\n'}
+[0.199642] (-) TimerEvent: {}
+[0.200561] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.rectifyPoint (26 ms)\n'}
+[0.200819] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.getDeltas\n'}
+[0.201091] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.getDeltas (0 ms)\n'}
+[0.201374] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.initialization\n'}
+[0.201639] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.initialization (0 ms)\n'}
+[0.201893] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.rectifyIfCalibrated\n'}
+[0.218147] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.rectifyIfCalibrated (15 ms)\n'}
+[0.218523] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.unrectifyImage\n'}
+[0.254853] (cv_bridge) StdoutLine: {'line': b'1: [==========] Running 9 tests from 3 test suites.\n'}
+[0.255373] (cv_bridge) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.255417] (cv_bridge) StdoutLine: {'line': b'1: [----------] 7 tests from CvBridgeTest\n'}
+[0.255449] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.endianness\n'}
+[0.255478] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.endianness (1 ms)\n'}
+[0.255506] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.compression\n'}
+[0.283228] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.compression (27 ms)\n'}
+[0.283570] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.NonContinuous\n'}
+[0.283608] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.NonContinuous (1 ms)\n'}
+[0.283640] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.ChannelOrder\n'}
+[0.283668] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.ChannelOrder (0 ms)\n'}
+[0.283695] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.initialization\n'}
+[0.288294] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.initialization (5 ms)\n'}
+[0.288369] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.imageMessageStep\n'}
+[0.288398] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.imageMessageStep (0 ms)\n'}
+[0.288425] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.imageMessageConversion\n'}
+[0.289351] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.imageMessageConversion (1 ms)\n'}
+[0.289432] (cv_bridge) StdoutLine: {'line': b'1: [----------] 7 tests from CvBridgeTest (35 ms total)\n'}
+[0.289461] (cv_bridge) StdoutLine: {'line': b'1: \n'}
+[0.289487] (cv_bridge) StdoutLine: {'line': b'1: [----------] 1 test from OpencvTests\n'}
+[0.289514] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] OpencvTests.testCase_encode_decode\n'}
+[0.299706] (-) TimerEvent: {}
+[0.399993] (-) TimerEvent: {}
+[0.500388] (-) TimerEvent: {}
+[0.586260] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] OpencvTests.testCase_encode_decode (296 ms)\n'}
+[0.586718] (cv_bridge) StdoutLine: {'line': b'1: [----------] 1 test from OpencvTests (296 ms total)\n'}
+[0.586758] (cv_bridge) StdoutLine: {'line': b'1: \n'}
+[0.586787] (cv_bridge) StdoutLine: {'line': b'1: [----------] 1 test from RGBColors\n'}
+[0.586820] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] RGBColors.testGetRGBColor\n'}
+[0.586848] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] RGBColors.testGetRGBColor (0 ms)\n'}
+[0.586874] (cv_bridge) StdoutLine: {'line': b'1: [----------] 1 test from RGBColors (0 ms total)\n'}
+[0.586900] (cv_bridge) StdoutLine: {'line': b'1: \n'}
+[0.586926] (cv_bridge) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.586953] (cv_bridge) StdoutLine: {'line': b'1: [==========] 9 tests from 3 test suites ran. (332 ms total)\n'}
+[0.586979] (cv_bridge) StdoutLine: {'line': b'1: [  PASSED  ] 9 tests.\n'}
+[0.600441] (-) TimerEvent: {}
+[0.606495] (cv_bridge) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.606941] (cv_bridge) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'\n"}
+[0.606986] (cv_bridge) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'\n"}
+[0.612296] (cv_bridge) StdoutLine: {'line': b'1/4 Test #1: cv_bridge-utest ..................   Passed    0.52 sec\n'}
+[0.612812] (cv_bridge) StdoutLine: {'line': b'test 2\n'}
+[0.612851] (cv_bridge) StdoutLine: {'line': b'    Start 2: enumerants.py\n'}
+[0.612880] (cv_bridge) StdoutLine: {'line': b'\n'}
+[0.612934] (cv_bridge) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/parallels/ros2_ws/build/cv_bridge/ament_cmake_pytest/enumerants.py.txt" "--command" "/usr/bin/python3.10" "-u" "-m" "pytest" "/home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/enumerants.py" "-o" "cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache" "--junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--junit-prefix=cv_bridge"\n'}
+[0.612996] (cv_bridge) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.649738] (cv_bridge) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/cv_bridge/test':\n"}
+[0.649837] (cv_bridge) StdoutLine: {'line': b'2:  - /usr/bin/python3.10 -u -m pytest /home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/enumerants.py -o cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache --junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml --junit-prefix=cv_bridge\n'}
+[0.700528] (-) TimerEvent: {}
+[0.800788] (-) TimerEvent: {}
+[0.833594] (cv_bridge) StdoutLine: {'line': b'2: ============================= test session starts ==============================\n'}
+[0.833701] (cv_bridge) StdoutLine: {'line': b'2: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.835959] (cv_bridge) StdoutLine: {'line': b'2: cachedir: /home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache\n'}
+[0.836259] (cv_bridge) StdoutLine: {'line': b'2: rootdir: /home/parallels/ros2_ws/src/vision_opencv, configfile: pytest.ini\n'}
+[0.836296] (cv_bridge) StdoutLine: {'line': b'2: plugins: ament-xmllint-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, launch-testing-1.0.4, cov-3.0.0, colcon-core-0.15.2\n'}
+[0.900874] (-) TimerEvent: {}
+[1.001191] (-) TimerEvent: {}
+[1.101554] (-) TimerEvent: {}
+[1.101907] (cv_bridge) StdoutLine: {'line': b'2: collected 2 items\n'}
+[1.101992] (cv_bridge) StdoutLine: {'line': b'2: \n'}
+[1.125937] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.unrectifyImage (907 ms)\n'}
+[1.126246] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.unrectifyImageWithBinning\n'}
+[1.201639] (-) TimerEvent: {}
+[1.214705] (cv_bridge) StdoutLine: {'line': b'2: ../../../src/vision_opencv/cv_bridge/test/enumerants.py ..               [100%]\n'}
+[1.215185] (cv_bridge) StdoutLine: {'line': b'2: \n'}
+[1.215227] (cv_bridge) StdoutLine: {'line': b'2: - generated xml file: /home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml -\n'}
+[1.215262] (cv_bridge) StdoutLine: {'line': b'2: ============================== 2 passed in 0.38s ===============================\n'}
+[1.269325] (cv_bridge) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.269436] (cv_bridge) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml'\n"}
+[1.273227] (cv_bridge) StdoutLine: {'line': b'2/4 Test #2: enumerants.py ....................   Passed    0.66 sec\n'}
+[1.273648] (cv_bridge) StdoutLine: {'line': b'test 3\n'}
+[1.273688] (cv_bridge) StdoutLine: {'line': b'    Start 3: conversions.py\n'}
+[1.273719] (cv_bridge) StdoutLine: {'line': b'\n'}
+[1.273748] (cv_bridge) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/parallels/ros2_ws/build/cv_bridge/ament_cmake_pytest/conversions.py.txt" "--command" "/usr/bin/python3.10" "-u" "-m" "pytest" "/home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/conversions.py" "-o" "cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache" "--junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--junit-prefix=cv_bridge"\n'}
+[1.273787] (cv_bridge) StdoutLine: {'line': b'3: Test timeout computed to be: 600\n'}
+[1.301712] (-) TimerEvent: {}
+[1.306757] (cv_bridge) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/cv_bridge/test':\n"}
+[1.306854] (cv_bridge) StdoutLine: {'line': b'3:  - /usr/bin/python3.10 -u -m pytest /home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/conversions.py -o cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache --junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml --junit-prefix=cv_bridge\n'}
+[1.389889] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.unrectifyImageWithBinning (263 ms)\n'}
+[1.390271] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.unrectifyImageWithRoi\n'}
+[1.401969] (-) TimerEvent: {}
+[1.502147] (-) TimerEvent: {}
+[1.519249] (cv_bridge) StdoutLine: {'line': b'3: ============================= test session starts ==============================\n'}
+[1.519529] (cv_bridge) StdoutLine: {'line': b'3: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[1.521705] (cv_bridge) StdoutLine: {'line': b'3: cachedir: /home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache\n'}
+[1.521906] (cv_bridge) StdoutLine: {'line': b'3: rootdir: /home/parallels/ros2_ws/src/vision_opencv, configfile: pytest.ini\n'}
+[1.521935] (cv_bridge) StdoutLine: {'line': b'3: plugins: ament-xmllint-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, launch-testing-1.0.4, cov-3.0.0, colcon-core-0.15.2\n'}
+[1.602246] (-) TimerEvent: {}
+[1.666636] (cv_bridge) StdoutLine: {'line': b'3: collected 4 items\n'}
+[1.666977] (cv_bridge) StdoutLine: {'line': b'3: \n'}
+[1.702326] (-) TimerEvent: {}
+[1.802563] (-) TimerEvent: {}
+[1.894248] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.unrectifyImageWithRoi (503 ms)\n'}
+[1.894617] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi\n'}
+[1.902629] (-) TimerEvent: {}
+[2.002820] (-) TimerEvent: {}
+[2.010876] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (116 ms)\n'}
+[2.011012] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.rectifiedRoiSize\n'}
+[2.011346] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.rectifiedRoiSize (0 ms)\n'}
+[2.011563] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.rectifiedRoiCaching\n'}
+[2.011904] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.rectifiedRoiCaching (0 ms)\n'}
+[2.012116] (image_geometry) StdoutLine: {'line': b'1: [----------] 12 tests from PinholeTest (1840 ms total)\n'}
+[2.012150] (image_geometry) StdoutLine: {'line': b'1: \n'}
+[2.012482] (image_geometry) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[2.013127] (image_geometry) StdoutLine: {'line': b'1: [==========] 12 tests from 1 test suite ran. (1840 ms total)\n'}
+[2.013166] (image_geometry) StdoutLine: {'line': b'1: [  PASSED  ] 12 tests.\n'}
+[2.020106] (image_geometry) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[2.020315] (image_geometry) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'\n"}
+[2.020381] (image_geometry) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/parallels/ros2_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'\n"}
+[2.020655] (image_geometry) StdoutLine: {'line': b'1/1 Test #1: image_geometry-utest .............   Passed    1.92 sec\n'}
+[2.020694] (image_geometry) StdoutLine: {'line': b'\n'}
+[2.021212] (image_geometry) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 1\n'}
+[2.021253] (image_geometry) StdoutLine: {'line': b'\n'}
+[2.021281] (image_geometry) StdoutLine: {'line': b'Label Time Summary:\n'}
+[2.021308] (image_geometry) StdoutLine: {'line': b'gtest    =   1.92 sec*proc (1 test)\n'}
+[2.021334] (image_geometry) StdoutLine: {'line': b'\n'}
+[2.021361] (image_geometry) StdoutLine: {'line': b'Total Test time (real) =   1.92 sec\n'}
+[2.022549] (image_geometry) CommandEnded: {'returncode': 0}
+[2.032867] (image_geometry) JobEnded: {'identifier': 'image_geometry', 'rc': 0}
+[2.033095] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[2.081303] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 0}
+[2.081519] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[2.102910] (-) TimerEvent: {}
+[2.203187] (-) TimerEvent: {}
+[2.283612] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/parallels/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'parallels', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/image_geometry/lib:/home/parallels/ros2_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/parallels', 'OLDPWD': '/home/parallels/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '144550', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/parallels/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'parallels', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'parallels', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/144527,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/144527', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/081e4bbd_e7c8_46fb_bbe2_3aaf5ccd22f1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DCCGJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1505', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/parallels/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/parallels/ros2_ws/build/py_pubsub:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/build/opencv_tests:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/parallels/ros2_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/parallels/ros2_ws/build/py_pubsub/.pytest_cache'}, 'shell': False}
+[2.303303] (-) TimerEvent: {}
+[2.403698] (-) TimerEvent: {}
+[2.451273] (py_pubsub) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[2.451671] (py_pubsub) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[2.454023] (py_pubsub) StdoutLine: {'line': b'cachedir: /home/parallels/ros2_ws/build/py_pubsub/.pytest_cache\n'}
+[2.454256] (py_pubsub) StdoutLine: {'line': b'rootdir: /home/parallels/ros2_ws/src/py_pubsub\n'}
+[2.454461] (py_pubsub) StdoutLine: {'line': b'plugins: ament-xmllint-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, launch-testing-1.0.4, cov-3.0.0, colcon-core-0.15.2\n'}
+[2.503784] (-) TimerEvent: {}
+[2.507487] (py_pubsub) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[2.507773] (py_pubsub) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[2.508145] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.511645] (py_pubsub) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[2.601931] (py_pubsub) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[2.603851] (-) TimerEvent: {}
+[2.611468] (py_pubsub) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[2.611574] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.611607] (py_pubsub) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[2.611635] (py_pubsub) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[2.611662] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[2.642058] (py_pubsub) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[2.642445] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 2 code style errors / warnings:\x1b[0m\n'}
+[2.642512] (py_pubsub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./py_pubsub/publisher_member_function.py:37:1: E265 block comment should start with '# '\x1b[0m\n"}
+[2.642553] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./py_pubsub/publisher_member_function.py:37:35: W292 no newline at end of file\x1b[0m\n'}
+[2.642583] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[2.642611] (py_pubsub) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[2.642639] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.642667] (py_pubsub) StdoutLine: {'line': b"./py_pubsub/publisher_member_function.py:37:1: E265 block comment should start with '# '\n"}
+[2.642696] (py_pubsub) StdoutLine: {'line': b'#source /opt/ros/humble/setup.bash^\n'}
+[2.642724] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.642752] (py_pubsub) StdoutLine: {'line': b'./py_pubsub/publisher_member_function.py:37:35: W292 no newline at end of file\n'}
+[2.642779] (py_pubsub) StdoutLine: {'line': b'#source /opt/ros/humble/setup.bash                                  ^\n'}
+[2.642807] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.642834] (py_pubsub) StdoutLine: {'line': b"1     E265 block comment should start with '# '\n"}
+[2.642860] (py_pubsub) StdoutLine: {'line': b'1     W292 no newline at end of file\n'}
+[2.642887] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.642914] (py_pubsub) StdoutLine: {'line': b'7 files checked\n'}
+[2.642941] (py_pubsub) StdoutLine: {'line': b'2 errors\n'}
+[2.642967] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.642995] (py_pubsub) StdoutLine: {'line': b"'E'-type errors: 1\n"}
+[2.643022] (py_pubsub) StdoutLine: {'line': b"'W'-type errors: 1\n"}
+[2.643048] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.643075] (py_pubsub) StdoutLine: {'line': b'Checked files:\n'}
+[2.643102] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.643128] (py_pubsub) StdoutLine: {'line': b'* ./setup.py\n'}
+[2.643155] (py_pubsub) StdoutLine: {'line': b'* ./py_pubsub/__init__.py\n'}
+[2.643181] (py_pubsub) StdoutLine: {'line': b'* ./py_pubsub/subscriber_member_function.py\n'}
+[2.643207] (py_pubsub) StdoutLine: {'line': b'* ./py_pubsub/publisher_member_function.py\n'}
+[2.643233] (py_pubsub) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[2.643260] (py_pubsub) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[2.643287] (py_pubsub) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[2.643313] (py_pubsub) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[2.643339] (py_pubsub) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[2.643368] (py_pubsub) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[2.643411] (py_pubsub) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[2.643439] (py_pubsub) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[2.643466] (py_pubsub) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[2.643493] (py_pubsub) StderrLine: {'line': b'\n'}
+[2.645260] (py_pubsub) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[2.645329] (py_pubsub) StdoutLine: {'line': b'---- generated xml file: /home/parallels/ros2_ws/build/py_pubsub/pytest.xml ----\n'}
+[2.645363] (py_pubsub) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[2.645393] (py_pubsub) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 2 code style ...\n'}
+[2.645422] (py_pubsub) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.19s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[2.697220] (py_pubsub) CommandEnded: {'returncode': 1}
+[2.697389] (py_pubsub) TestFailure: {'identifier': 'py_pubsub'}
+[2.697405] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[2.697836] (opencv_cam) JobStarted: {'identifier': 'opencv_cam'}
+[2.703952] (-) TimerEvent: {}
+[2.737616] (opencv_cam) JobEnded: {'identifier': 'opencv_cam', 'rc': 0}
+[2.804726] (-) TimerEvent: {}
+[2.904971] (-) TimerEvent: {}
+[3.007072] (-) TimerEvent: {}
+[3.108876] (-) TimerEvent: {}
+[3.209398] (-) TimerEvent: {}
+[3.310955] (-) TimerEvent: {}
+[3.411343] (-) TimerEvent: {}
+[3.512272] (-) TimerEvent: {}
+[3.614882] (-) TimerEvent: {}
+[3.715368] (-) TimerEvent: {}
+[3.817253] (-) TimerEvent: {}
+[3.917592] (-) TimerEvent: {}
+[4.018016] (-) TimerEvent: {}
+[4.118442] (-) TimerEvent: {}
+[4.219048] (-) TimerEvent: {}
+[4.320671] (-) TimerEvent: {}
+[4.421832] (-) TimerEvent: {}
+[4.522738] (-) TimerEvent: {}
+[4.624294] (-) TimerEvent: {}
+[4.725302] (-) TimerEvent: {}
+[4.827762] (-) TimerEvent: {}
+[4.929281] (-) TimerEvent: {}
+[5.032083] (-) TimerEvent: {}
+[5.132466] (-) TimerEvent: {}
+[5.233030] (-) TimerEvent: {}
+[5.333344] (-) TimerEvent: {}
+[5.433844] (-) TimerEvent: {}
+[5.534290] (-) TimerEvent: {}
+[5.634895] (-) TimerEvent: {}
+[5.735592] (-) TimerEvent: {}
+[5.835909] (-) TimerEvent: {}
+[5.936784] (-) TimerEvent: {}
+[6.037723] (-) TimerEvent: {}
+[6.138194] (-) TimerEvent: {}
+[6.238806] (-) TimerEvent: {}
+[6.339566] (-) TimerEvent: {}
+[6.439892] (-) TimerEvent: {}
+[6.540549] (-) TimerEvent: {}
+[6.641815] (-) TimerEvent: {}
+[6.742218] (-) TimerEvent: {}
+[6.842748] (-) TimerEvent: {}
+[6.943487] (-) TimerEvent: {}
+[7.043816] (-) TimerEvent: {}
+[7.144515] (-) TimerEvent: {}
+[7.246212] (-) TimerEvent: {}
+[7.347874] (-) TimerEvent: {}
+[7.451072] (-) TimerEvent: {}
+[7.553006] (-) TimerEvent: {}
+[7.653600] (-) TimerEvent: {}
+[7.753963] (-) TimerEvent: {}
+[7.854531] (-) TimerEvent: {}
+[7.954895] (-) TimerEvent: {}
+[8.058014] (-) TimerEvent: {}
+[8.159619] (-) TimerEvent: {}
+[8.260497] (-) TimerEvent: {}
+[8.361693] (-) TimerEvent: {}
+[8.462115] (-) TimerEvent: {}
+[8.565136] (-) TimerEvent: {}
+[8.665472] (-) TimerEvent: {}
+[8.768031] (-) TimerEvent: {}
+[8.870080] (-) TimerEvent: {}
+[8.970684] (-) TimerEvent: {}
+[9.018993] (cv_bridge) StdoutLine: {'line': b'3: ../../../src/vision_opencv/cv_bridge/test/conversions.py ....            [100%]\n'}
+[9.019887] (cv_bridge) StdoutLine: {'line': b'3: \n'}
+[9.019986] (cv_bridge) StdoutLine: {'line': b'3: =============================== warnings summary ===============================\n'}
+[9.022063] (cv_bridge) StdoutLine: {'line': b'3: cv_bridge/test/conversions.py: 7056 warnings\n'}
+[9.022143] (cv_bridge) StdoutLine: {'line': b'3:   Warning: tostring() is deprecated. Use tobytes() instead.\n'}
+[9.022178] (cv_bridge) StdoutLine: {'line': b'3: \n'}
+[9.022207] (cv_bridge) StdoutLine: {'line': b'3: -- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[9.022236] (cv_bridge) StdoutLine: {'line': b'3: - generated xml file: /home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml -\n'}
+[9.022436] (cv_bridge) StdoutLine: {'line': b'3: ======================= 4 passed, 7056 warnings in 7.50s =======================\n'}
+[9.071159] (-) TimerEvent: {}
+[9.103071] (cv_bridge) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[9.103263] (cv_bridge) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml'\n"}
+[9.109846] (cv_bridge) StdoutLine: {'line': b'3/4 Test #3: conversions.py ...................   Passed    7.84 sec\n'}
+[9.109909] (cv_bridge) StdoutLine: {'line': b'test 4\n'}
+[9.109942] (cv_bridge) StdoutLine: {'line': b'    Start 4: python_bindings.py\n'}
+[9.109970] (cv_bridge) StdoutLine: {'line': b'\n'}
+[9.109999] (cv_bridge) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/parallels/ros2_ws/build/cv_bridge/ament_cmake_pytest/python_bindings.py.txt" "--command" "/usr/bin/python3.10" "-u" "-m" "pytest" "/home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/python_bindings.py" "-o" "cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache" "--junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--junit-prefix=cv_bridge"\n'}
+[9.110038] (cv_bridge) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[9.141885] (cv_bridge) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/parallels/ros2_ws/build/cv_bridge/test':\n"}
+[9.141981] (cv_bridge) StdoutLine: {'line': b'4:  - /usr/bin/python3.10 -u -m pytest /home/parallels/ros2_ws/src/vision_opencv/cv_bridge/test/python_bindings.py -o cache_dir=/home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache --junit-xml=/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml --junit-prefix=cv_bridge\n'}
+[9.171566] (-) TimerEvent: {}
+[9.272504] (-) TimerEvent: {}
+[9.286008] (cv_bridge) StdoutLine: {'line': b'4: ============================= test session starts ==============================\n'}
+[9.286536] (cv_bridge) StdoutLine: {'line': b'4: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[9.288247] (cv_bridge) StdoutLine: {'line': b'4: cachedir: /home/parallels/ros2_ws/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache\n'}
+[9.288319] (cv_bridge) StdoutLine: {'line': b'4: rootdir: /home/parallels/ros2_ws/src/vision_opencv, configfile: pytest.ini\n'}
+[9.288353] (cv_bridge) StdoutLine: {'line': b'4: plugins: ament-xmllint-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, launch-testing-1.0.4, cov-3.0.0, colcon-core-0.15.2\n'}
+[9.373402] (-) TimerEvent: {}
+[9.387258] (cv_bridge) StdoutLine: {'line': b'4: collected 1 item\n'}
+[9.387400] (cv_bridge) StdoutLine: {'line': b'4: \n'}
+[9.418497] (cv_bridge) StdoutLine: {'line': b'4: ../../../src/vision_opencv/cv_bridge/test/python_bindings.py .           [100%]\n'}
+[9.418593] (cv_bridge) StdoutLine: {'line': b'4: \n'}
+[9.418627] (cv_bridge) StdoutLine: {'line': b'4: - generated xml file: /home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml -\n'}
+[9.418685] (cv_bridge) StdoutLine: {'line': b'4: ============================== 1 passed in 0.13s ===============================\n'}
+[9.458599] (cv_bridge) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[9.458775] (cv_bridge) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/parallels/ros2_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml'\n"}
+[9.464166] (cv_bridge) StdoutLine: {'line': b'4/4 Test #4: python_bindings.py ...............   Passed    0.35 sec\n'}
+[9.464246] (cv_bridge) StdoutLine: {'line': b'\n'}
+[9.464281] (cv_bridge) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 4\n'}
+[9.464310] (cv_bridge) StdoutLine: {'line': b'\n'}
+[9.464337] (cv_bridge) StdoutLine: {'line': b'Label Time Summary:\n'}
+[9.464365] (cv_bridge) StdoutLine: {'line': b'gtest     =   0.52 sec*proc (1 test)\n'}
+[9.464393] (cv_bridge) StdoutLine: {'line': b'pytest    =   8.85 sec*proc (3 tests)\n'}
+[9.464420] (cv_bridge) StdoutLine: {'line': b'\n'}
+[9.464449] (cv_bridge) StdoutLine: {'line': b'Total Test time (real) =   9.37 sec\n'}
+[9.465952] (cv_bridge) CommandEnded: {'returncode': 0}
+[9.466696] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 0}
+[9.467841] (opencv_tests) JobStarted: {'identifier': 'opencv_tests'}
+[9.474000] (-) TimerEvent: {}
+[9.495853] (vision_opencv) JobStarted: {'identifier': 'vision_opencv'}
+[9.574221] (-) TimerEvent: {}
+[9.660703] (opencv_tests) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/parallels/ros2_ws/src/vision_opencv/opencv_tests', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'parallels', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/parallels/ros2_ws/install/cv_bridge/lib:/home/parallels/ros2_ws/install/turtlesim/lib:/home/parallels/ros2_ws/install/opencv_cam/lib:/home/parallels/ros2_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/parallels', 'OLDPWD': '/home/parallels/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '144550', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/parallels/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'parallels', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'parallels', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/144527,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/144527', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/081e4bbd_e7c8_46fb_bbe2_3aaf5ccd22f1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DCCGJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1505', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/parallels/ros2_ws/build/opencv_tests', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/parallels/ros2_ws/build/opencv_tests:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/build/py_pubsub:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/parallels/ros2_ws/install/cv_bridge:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/image_geometry', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/parallels/ros2_ws/build/opencv_tests/pytest.xml --junit-prefix=opencv_tests -o cache_dir=/home/parallels/ros2_ws/build/opencv_tests/.pytest_cache'}, 'shell': False}
+[9.668387] (vision_opencv) JobEnded: {'identifier': 'vision_opencv', 'rc': 0}
+[9.674412] (-) TimerEvent: {}
+[9.774881] (-) TimerEvent: {}
+[9.806539] (opencv_tests) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[9.806689] (opencv_tests) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[9.809234] (opencv_tests) StdoutLine: {'line': b'cachedir: /home/parallels/ros2_ws/build/opencv_tests/.pytest_cache\n'}
+[9.809313] (opencv_tests) StdoutLine: {'line': b'rootdir: /home/parallels/ros2_ws/src/vision_opencv, configfile: pytest.ini\n'}
+[9.809346] (opencv_tests) StdoutLine: {'line': b'plugins: ament-xmllint-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, launch-testing-1.0.4, cov-3.0.0, colcon-core-0.15.2\n'}
+[9.812934] (opencv_tests) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[9.812994] (opencv_tests) StdoutLine: {'line': b'collected 0 items                                                              \x1b[0m\n'}
+[9.813868] (opencv_tests) StdoutLine: {'line': b'\n'}
+[9.814022] (opencv_tests) StdoutLine: {'line': b'-- generated xml file: /home/parallels/ros2_ws/build/opencv_tests/pytest.xml ---\n'}
+[9.814332] (opencv_tests) StdoutLine: {'line': b'\x1b[33m============================ \x1b[33mno tests ran\x1b[0m\x1b[33m in 0.01s\x1b[0m\x1b[33m =============================\x1b[0m\n'}
+[9.838844] (opencv_tests) CommandEnded: {'returncode': 5}
+[9.839101] (opencv_tests) JobEnded: {'identifier': 'opencv_tests', 'rc': 0}
+[9.840502] (-) EventReactorShutdown: {}

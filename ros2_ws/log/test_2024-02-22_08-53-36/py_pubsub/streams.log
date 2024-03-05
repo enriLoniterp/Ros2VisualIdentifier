@@ -1,0 +1,60 @@
+[0.202s] Invoking command in '/home/parallels/ros2_ws/src/py_pubsub': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/parallels/ros2_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/parallels/ros2_ws/build/py_pubsub/.pytest_cache PYTHONPATH=/home/parallels/ros2_ws/build/py_pubsub:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/build/opencv_tests:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest
+[0.370s] [1m============================= test session starts ==============================[0m
+[0.370s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.373s] cachedir: /home/parallels/ros2_ws/build/py_pubsub/.pytest_cache
+[0.373s] rootdir: /home/parallels/ros2_ws/src/py_pubsub
+[0.373s] plugins: ament-xmllint-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, launch-testing-1.0.4, cov-3.0.0, colcon-core-0.15.2
+[0.426s] [1mcollecting ... [0m[1m
+[0.426s] collected 3 items                                                              [0m
+[0.427s] 
+[0.430s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[0.521s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[0.530s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[0.530s] 
+[0.530s] =================================== FAILURES ===================================
+[0.530s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[0.530s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[0.561s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[0.561s] [1m[31mE   AssertionError: Found 2 code style errors / warnings:[0m
+[0.561s] [1m[31mE     ./py_pubsub/publisher_member_function.py:37:1: E265 block comment should start with '# '[0m
+[0.561s] [1m[31mE     ./py_pubsub/publisher_member_function.py:37:35: W292 no newline at end of file[0m
+[0.561s] [1m[31mE   assert 1 == 0[0m
+[0.561s] ----------------------------- Captured stdout call -----------------------------
+[0.561s] 
+[0.561s] ./py_pubsub/publisher_member_function.py:37:1: E265 block comment should start with '# '
+[0.561s] #source /opt/ros/humble/setup.bash^
+[0.561s] 
+[0.561s] ./py_pubsub/publisher_member_function.py:37:35: W292 no newline at end of file
+[0.561s] #source /opt/ros/humble/setup.bash                                  ^
+[0.561s] 
+[0.561s] 1     E265 block comment should start with '# '
+[0.561s] 1     W292 no newline at end of file
+[0.561s] 
+[0.561s] 7 files checked
+[0.561s] 2 errors
+[0.561s] 
+[0.561s] 'E'-type errors: 1
+[0.562s] 'W'-type errors: 1
+[0.562s] 
+[0.562s] Checked files:
+[0.562s] 
+[0.562s] * ./setup.py
+[0.562s] * ./py_pubsub/__init__.py
+[0.562s] * ./py_pubsub/subscriber_member_function.py
+[0.562s] * ./py_pubsub/publisher_member_function.py
+[0.562s] * ./test/test_copyright.py
+[0.562s] * ./test/test_flake8.py
+[0.562s] * ./test/test_pep257.py
+[0.562s] ----------------------------- Captured stderr call -----------------------------
+[0.562s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.562s] [33m=============================== warnings summary ===============================[0m
+[0.562s] test/test_flake8.py::test_flake8
+[0.562s] test/test_flake8.py::test_flake8
+[0.562s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.564s] 
+[0.564s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.564s] ---- generated xml file: /home/parallels/ros2_ws/build/py_pubsub/pytest.xml ----
+[0.564s] =========================== short test summary info ============================
+[0.564s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 2 code style ...
+[0.564s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.19s[0m[31m ==============[0m
+[0.616s] Invoked command in '/home/parallels/ros2_ws/src/py_pubsub' returned '1': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/vision_opencv:/home/parallels/ros2_ws/install/turtlesim:/home/parallels/ros2_ws/install/opencv_cam:/home/parallels/ros2_ws/install/ros2_shared:/home/parallels/ros2_ws/install/opencv_tests:/home/parallels/ros2_ws/install/image_geometry:/home/parallels/ros2_ws/install/cv_bridge:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/parallels/ros2_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/parallels/ros2_ws/build/py_pubsub/.pytest_cache PYTHONPATH=/home/parallels/ros2_ws/build/py_pubsub:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/build/opencv_tests:/home/parallels/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/parallels/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest

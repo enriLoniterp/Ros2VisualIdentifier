@@ -1,0 +1,26 @@
+[0.030s] Invoking command in '/home/parallels/ros2_ws/build/cv_bridge': /usr/bin/cmake /home/parallels/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/cv_bridge
+[0.056s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.105s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.165s] Traceback (most recent call last):
+[0.165s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.165s]     from ament_package.templates import get_environment_hook_template_path
+[0.165s] ModuleNotFoundError: No module named 'ament_package'
+[0.172s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.172s]   execute_process(/usr/bin/python3.10
+[0.172s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.172s]   /home/parallels/ros2_ws/build/cv_bridge/ament_cmake_package_templates/templates.cmake)
+[0.172s]   returned error code 1
+[0.172s] Call Stack (most recent call first):
+[0.172s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.172s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:39 (find_package)
+[0.172s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.173s]   /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+[0.173s]   /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+[0.173s]   /opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+[0.173s]   /opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+[0.173s]   CMakeLists.txt:4 (find_package)
+[0.173s] 
+[0.173s] [0m
+[0.173s] -- Configuring incomplete, errors occurred!
+[0.173s] See also "/home/parallels/ros2_ws/build/cv_bridge/CMakeFiles/CMakeOutput.log".
+[0.182s] Invoked command in '/home/parallels/ros2_ws/build/cv_bridge' returned '1': /usr/bin/cmake /home/parallels/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/cv_bridge

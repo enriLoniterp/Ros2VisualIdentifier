@@ -1,0 +1,50 @@
+[0.047s] Invoking command in '/home/parallels/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/image_geometry -- -j2 -l2
+[0.286s] [ 33%] Built target image_geometry
+[0.315s] [ 33%] Built target ament_cmake_python_symlink_image_geometry
+[0.354s] [ 55%] Built target gtest_main
+[0.361s] [ 77%] Built target gtest
+[0.423s] [100%] Built target image_geometry-utest
+[0.540s] running egg_info
+[0.540s] writing image_geometry.egg-info/PKG-INFO
+[0.541s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[0.541s] writing top-level names to image_geometry.egg-info/top_level.txt
+[0.542s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[0.543s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[0.560s] [100%] Built target ament_cmake_python_build_image_geometry_egg
+[0.574s] Invoked command in '/home/parallels/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/image_geometry -- -j2 -l2
+[0.626s] Invoking command in '/home/parallels/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/image_geometry
+[0.631s] -- Install configuration: ""
+[0.633s] -- Execute custom install script
+[0.633s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[0.633s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[0.635s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/PKG-INFO
+[0.636s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/SOURCES.txt
+[0.639s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/dependency_links.txt
+[0.640s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/top_level.txt
+[0.640s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[0.641s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[0.642s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[0.642s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[0.643s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[0.643s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[0.644s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[0.644s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[0.645s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[0.649s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[0.649s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[0.649s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[0.649s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[0.649s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[0.649s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[0.649s] -- Symlinking: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/package.dsv
+[0.658s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[0.658s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[0.659s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.659s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[0.660s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[0.660s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/package.xml
+[0.691s] Listing '/home/parallels/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[0.697s] -- Up-to-date: /home/parallels/ros2_ws/install/image_geometry/lib/libimage_geometry.so
+[0.697s] -- Up-to-date: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[0.698s] -- Up-to-date: /home/parallels/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[0.732s] Invoked command in '/home/parallels/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/image_geometry
